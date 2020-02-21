@@ -1,0 +1,165 @@
+
+
+
+#IndividualSection{
+    background:url(../img/bg-img-01.jpg) no-repeat;
+    background-size: cover;
+    min-height:700px;
+    background-attachment: fixed;
+}
+
+
+
+.buttonOFfirstSection{
+    width:200px;
+   
+}
+.buttonOFfirstSection2{
+    width:200px;
+   
+}
+
+
+.divOFfirstSection{
+    margin-top:80px;
+}
+
+.divOFfirstSection h1{
+    font-size: 60px;
+    color: white;
+}
+.divOFfirstSection h6{
+    color:white;
+    font-size: 19px;
+    line-height: 25px;
+
+}
+
+#secondSection{
+    background:url(../img/bg-img-02.jpg) no-repeat;
+    background-size: cover;
+    min-height:600px;
+    background-attachment: fixed;
+}
+
+.leftBlcok{
+    background-color:#ffffffbf;
+    width:350px;
+    height:430px;
+    color:black;
+   
+}
+.rightBlock{
+    background-color:#ffffffbf;
+    width:350px;
+    height:430px;
+    color:black;
+   
+}
+.leftBlcok h2{
+    margin-left:40px;
+    margin-bottom:40px;
+    font-weight: bold;
+}
+.leftBlcok p{
+    font-size:19px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.rightBlock h2{
+    margin-left:40px;
+    margin-bottom:40px;
+    font-weight: bold;
+}
+.rightBlock  p{
+    font-size:19px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+#thirdSection{
+    
+        background:url(../img/bg-img-03.jpg) no-repeat;
+        background-size: cover;
+        min-height:600px;
+        background-attachment: fixed;
+    
+}
+
+#thirdSection .headerthirdSection{
+    background-color: #ffffffbf;
+    padding: 30px;
+    margin-top: 70px;
+}
+
+
+#thirdSection .paragraophOFsec{
+    background-color: #ffffffbf;
+    padding: 30px;
+    margin-top: 10px;
+    font-size:20px;
+}
+
+.Block{
+    background-color:#ffffffbf;
+    width:350px;
+    height:370px;
+    margin-top: 80px;
+    
+    padding: 40px;
+   
+
+}
+
+.Block h2{
+    color: green;
+
+}
+.Block p{
+    color:black;
+    font-size: 20px;
+    padding-bottom: 30px;
+
+}
+
+#fourthSection{
+    background:url(../img/bg-img-04.jpg) no-repeat;
+    background-size: cover;
+    min-height:600px;
+    background-attachment: fixed;
+
+}
+
+#fifthSection{
+    background:url(../img/bg-img-05.jpg) no-repeat;
+    background-size: cover;
+    min-height:600px;
+    background-attachment: fixed;
+}
+
+#contactSection{
+    background:url(../img/bg-img-06.jpg) no-repeat;
+    background-size: cover;
+    min-height:580px;
+    background-attachment: fixed;
+}
+
+@media(max-width:767px){
+    .leftBlcok, .rightBlock, .Block{
+        margin: auto;
+    }
+}
+@media(max-width:767px){
+    .Block{
+        margin: auto;
+        margin-top: 60px;
+    }
+}
+@media(max-width:331px){
+    .buttonOFfirstSection2{
+        margin-right:50px;
+       
+    }
+}
